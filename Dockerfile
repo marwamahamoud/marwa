@@ -4,6 +4,6 @@ WORKDIR /application
 
 COPY marwa.java .
 
-RuN javac marwa.java
+RUN javac marwa.java
 
 CMD java marwa
